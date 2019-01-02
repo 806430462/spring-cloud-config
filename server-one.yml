@@ -8,6 +8,6 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 server:
-  port: 8701
+  port: 8801
   servlet:
     context-path: /${spring.application.name}
