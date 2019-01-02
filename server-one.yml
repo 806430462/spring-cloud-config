@@ -1,0 +1,13 @@
+#YAML（Yet Another Markup Language）（发音 /ˈjæməl/ ）
+#一种基于Unicode容易阅读，容易和脚本语言交互的，用来表达资料序列的编程语言
+spring:
+  application:
+    name: server-one
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8701
+  servlet:
+    context-path: /${spring.application.name}
